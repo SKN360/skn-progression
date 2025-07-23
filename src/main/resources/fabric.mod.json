@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "skns-progression",
+	"version": "${version}",
+	"name": "SKN's Progression",
+	"description": "This mod carefully overhauls vanilla features and progression to be more dynamic",
+	"authors": [
+		"SKN"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/skns-progression/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.skn.sparkprogression.SKNsProgression"
+		],
+		"fabric-datagen": [
+			"net.skn.sparkprogression.SKNsProgressionDataGenerator"
+		],
+		"client": [
+			"net.skn.sparkprogression.SKNsProgressionClient"
+		]
+	},
+	"mixins": [
+		"skns-progression.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
