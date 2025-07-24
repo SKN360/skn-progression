@@ -1,0 +1,10 @@
+{
+  "item.skns_progression.iron_upgrade_smithing_template": "Smithing Template",
+  "item.skns_progression.copper_nugget" : "Copper Hunk",
+  "tooltip.skns_progression.smithing_template.iron_upgrade.applies_to": "§9Copper Equipment",
+  "tooltip.skns_progression.smithing_template.iron_upgrade.ingredients" : "§9Iron Ingot",
+  "tooltip.skns_progression.smithing_template.iron_upgrade.base_slot_description" : "§cAdd copper armor, weapon, or tool",
+  "tooltip.skns_progression.smithing_template.iron_upgrade.additions_slot_description" : "§cAdd Iron Ingot",
+  "upgrade.skns_progression.smithing_template_iron_upgrade" : "§7Iron Upgrade",
+  "itemgroup.skns_progression.involved_items" : "SKN's Progression Key Items"
+}
