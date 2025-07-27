@@ -1,10 +1,24 @@
 {
+  "item.skns_progression.copper_nugget" : "Copper Nugget",
+
   "item.skns_progression.iron_upgrade_smithing_template": "Smithing Template",
-  "item.skns_progression.copper_nugget" : "Copper Hunk",
   "tooltip.skns_progression.smithing_template.iron_upgrade.applies_to": "§9Copper Equipment",
   "tooltip.skns_progression.smithing_template.iron_upgrade.ingredients" : "§9Iron Ingot",
   "tooltip.skns_progression.smithing_template.iron_upgrade.base_slot_description" : "§cAdd copper armor, weapon, or tool",
   "tooltip.skns_progression.smithing_template.iron_upgrade.additions_slot_description" : "§cAdd Iron Ingot",
   "upgrade.skns_progression.smithing_template_iron_upgrade" : "§7Iron Upgrade",
+
+  "item.skns_progression.copper_sword": "Copper Sword",
+  "item.skns_progression.copper_axe": "Copper Axe",
+  "item.skns_progression.copper_pickaxe": "Copper Pickaxe",
+  "item.skns_progression.copper_shovel": "Copper Shovel",
+  "item.skns_progression.copper_hoe": "Copper Hoe",
+  "item.skns_progression.copper_helmet": "Copper Helmet",
+  "item.skns_progression.copper_chestplate": "Copper Chestplate",
+  "item.skns_progression.copper_leggings": "Copper Leggings",
+  "item.skns_progression.copper_boots": "Copper Boots",
+
   "itemgroup.skns_progression.involved_items" : "SKN's Progression Key Items"
+
+
 }

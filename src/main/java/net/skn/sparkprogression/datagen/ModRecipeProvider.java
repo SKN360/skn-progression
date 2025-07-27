@@ -19,5 +19,42 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     @Override
     public void generate(RecipeExporter exporter) {
 
+        // Basic Items
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRON_UPGRADE_SMITHING_TEMPLATE)
+                .pattern("RTR")
+                .pattern("RBR")
+                .pattern("RRR")
+                .input('R', Items.COPPER_INGOT)
+                .input('B', Items.COBBLED_DEEPSLATE)
+                .input('T', ModItems.IRON_UPGRADE_SMITHING_TEMPLATE)
+                .criterion(hasItem(ModItems.IRON_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.IRON_UPGRADE_SMITHING_TEMPLATE))
+        ;
+        // Chainmail armor
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, Items.CHAINMAIL_BOOTS)
+                .pattern("C C")
+                .pattern("C C")
+                .input('C', Items.CHAIN)
+                .criterion(hasItem(Items.CHAIN), conditionsFromItem(Items.CHAIN))
+        ;
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, Items.CHAINMAIL_LEGGINGS)
+                .pattern("CCC")
+                .pattern("C C")
+                .pattern("C C")
+                .input('C', Items.CHAIN)
+                .criterion(hasItem(Items.CHAIN), conditionsFromItem(Items.CHAIN))
+        ;
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, Items.CHAINMAIL_BOOTS)
+                .pattern("C C")
+                .pattern("CCC")
+                .pattern("CCC")
+                .input('C', Items.CHAIN)
+                .criterion(hasItem(Items.CHAIN), conditionsFromItem(Items.CHAIN))
+        ;
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, Items.CHAINMAIL_BOOTS)
+                .pattern("CCC")
+                .pattern("C C")
+                .input('C', Items.CHAIN)
+                .criterion(hasItem(Items.CHAIN), conditionsFromItem(Items.CHAIN))
+        ;
     }
 }
