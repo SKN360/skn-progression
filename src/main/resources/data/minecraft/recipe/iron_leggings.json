@@ -4,13 +4,13 @@
     "item": "minecraft:iron_ingot"
   },
   "base": {
-    "item": "minecraft:leather_leggings"
+    "item": "minecraft:chainmail_leggings"
   },
   "result": {
     "count": 1,
     "id": "minecraft:iron_leggings"
   },
   "template": {
-    "item": "spark-progression:iron_upgrade_smithing_template"
+    "item": "skns_progression:iron_upgrade_smithing_template"
   }
 }

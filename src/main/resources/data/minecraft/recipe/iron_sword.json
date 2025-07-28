@@ -4,7 +4,7 @@
     "item": "minecraft:iron_ingot"
   },
   "base": {
-    "item": "minecraft:stone_sword"
+    "item": "skns_progression:copper_sword"
   },
   "result": {
     "count": 1,

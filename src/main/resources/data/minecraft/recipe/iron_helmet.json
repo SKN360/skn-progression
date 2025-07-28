@@ -4,7 +4,7 @@
     "item": "minecraft:iron_ingot"
   },
   "base": {
-    "item": "minecraft:leather_helmet"
+    "item": "minecraft:chainmail_helmet"
   },
   "result": {
     "count": 1,

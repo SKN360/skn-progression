@@ -13,10 +13,17 @@
   "item.skns_progression.copper_pickaxe": "Copper Pickaxe",
   "item.skns_progression.copper_shovel": "Copper Shovel",
   "item.skns_progression.copper_hoe": "Copper Hoe",
+
   "item.skns_progression.copper_helmet": "Copper Helmet",
   "item.skns_progression.copper_chestplate": "Copper Chestplate",
   "item.skns_progression.copper_leggings": "Copper Leggings",
   "item.skns_progression.copper_boots": "Copper Boots",
+
+  "item.skns_progression.obsidian_sword": "Obsidian Sword",
+  "item.skns_progression.obsidian_axe": "Obsidian Axe",
+  "item.skns_progression.obsidian_pickaxe": "Obsidian Pickaxe",
+  "item.skns_progression.obsidian_shovel": "Obsidian Shovel",
+  "item.skns_progression.obsidian_hoe": "Obsidian Hoe",
 
   "itemgroup.skns_progression.involved_items" : "SKN's Progression Key Items"
 

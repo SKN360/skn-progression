@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "minecraft:stick"
+    },
+    "R": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "pattern": [
+    "RR",
+    " I",
+    " I"
+  ],
+  "result": {
+    "count": 1,
+    "id": "skns_progression:copper_hoe"
+  }
+}

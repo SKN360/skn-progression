@@ -4,7 +4,7 @@
     "item": "minecraft:iron_ingot"
   },
   "base": {
-    "item": "minecraft:stone_axe"
+    "item": "skns_progression:copper_axe"
   },
   "result": {
     "count": 1,

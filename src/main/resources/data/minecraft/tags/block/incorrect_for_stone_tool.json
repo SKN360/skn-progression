@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values":[
+    "minecraft:deepslate",
+    "#minecraft:iron_ores",
+    "minecraft:deepslate_coal_ore",
+    "minecraft:deepslate_copper_ore"
+  ]
+}

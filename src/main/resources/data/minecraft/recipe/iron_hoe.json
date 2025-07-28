@@ -4,7 +4,7 @@
     "item": "minecraft:iron_ingot"
   },
   "base": {
-    "item": "minecraft:stone_hoe"
+    "item": "skns_progression:copper_hoe"
   },
   "result": {
     "count": 1,

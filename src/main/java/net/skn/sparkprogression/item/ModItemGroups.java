@@ -55,11 +55,11 @@ public class ModItemGroups {
 
                         entries.add(Items.OBSIDIAN);
 
-//                        entries.add(ModItems.OBSIDIAN_AXE);
-//                        entries.add(ModItems.OBSIDIAN_SWORD);
-//                        entries.add(ModItems.OBSIDIAN_PICKAXE);
-//                        entries.add(ModItems.OBSIDIAN_SHOVEL);
-//                        entries.add(ModItems.OBSIDIAN_HOE);
+                        entries.add(ModItems.OBSIDIAN_AXE);
+                        entries.add(ModItems.OBSIDIAN_SWORD);
+                        entries.add(ModItems.OBSIDIAN_PICKAXE);
+                        entries.add(ModItems.OBSIDIAN_SHOVEL);
+                        entries.add(ModItems.OBSIDIAN_HOE);
 
                         entries.add(Items.FURNACE);
 
@@ -67,11 +67,11 @@ public class ModItemGroups {
                         entries.add(Items.COPPER_INGOT);
                         entries.add(Items.COPPER_BLOCK);
 
-//                        entries.add(ModItems.COPPER_AXE);
-//                        entries.add(ModItems.COPPER_SWORD);
-//                        entries.add(ModItems.COPPER_PICKAXE);
-//                        entries.add(ModItems.COPPER_SHOVEL);
-//                        entries.add(ModItems.COPPER_HOE);
+                        entries.add(ModItems.COPPER_AXE);
+                        entries.add(ModItems.COPPER_SWORD);
+                        entries.add(ModItems.COPPER_PICKAXE);
+                        entries.add(ModItems.COPPER_SHOVEL);
+                        entries.add(ModItems.COPPER_HOE);
 
 //                        entries.add(ModItems.COPPER_HELMET);
 //                        entries.add(ModItems.COPPER_CHESTPLATE);

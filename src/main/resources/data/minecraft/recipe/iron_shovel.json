@@ -4,7 +4,7 @@
     "item": "minecraft:iron_ingot"
   },
   "base": {
-    "item": "minecraft:stone_shovel"
+    "item": "skns_progression:copper_shovel"
   },
   "result": {
     "count": 1,

@@ -1,0 +1,10 @@
+{
+  "values" : [
+    "#minecraft:incorrect_for_iron_tool",
+    "#minecraft:diamond_ores",
+    "#minecraft:emerald_ores"
+  ],
+  "remove": [
+    "#skns_progression:needs_copper_tool"
+  ]
+}
