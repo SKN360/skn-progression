@@ -1,8 +1,8 @@
-// 1.21.1	2025-07-28T17:16:11.2960614	SKN's Progression/Block Loot Tables
-db923fd6685f8a083fa7360d49e7d5e4210877fc data\minecraft\loot_table\blocks\copper_ore.json
-460278fc80245a6b3e4bf741016ec004f261d6a9 data\minecraft\loot_table\blocks\nether_gold_ore.json
-725ec49521e302161dc61445c226d62f9a61e3dc data\minecraft\loot_table\blocks\gold_ore.json
-472554773b87c04469208610ea7151400a423ee7 data\minecraft\loot_table\blocks\iron_ore.json
-3c4d978d806bb222852755b36f9521e736a6f6d4 data\minecraft\loot_table\blocks\deepslate_gold_ore.json
-4c099eeaed02dc7abcc855de7743d7ada170ac35 data\minecraft\loot_table\blocks\deepslate_iron_ore.json
-88f6afeec9640db35c44b98302dfb3dc14679376 data\minecraft\loot_table\blocks\deepslate_copper_ore.json
+// 1.21.1	2025-07-28T21:01:17.2149924	SKN's Progression/Block Loot Tables
+1b6ff9db96cc090559a0d63e2a6e4df608a999e3 data\minecraft\loot_table\blocks\copper_ore.json
+da9b0894752f2fcec307711e27db26ec0ab0670d data\minecraft\loot_table\blocks\nether_gold_ore.json
+46463eb82edb38740fdf7ddcbc77b360d74cde3c data\minecraft\loot_table\blocks\gold_ore.json
+971331472d66cf5c73bf243ad84faf8d6e0878ec data\minecraft\loot_table\blocks\iron_ore.json
+34ade42eb0505f8cda4da58c38972c46461651d0 data\minecraft\loot_table\blocks\deepslate_gold_ore.json
+42e277a878f1b7ac4f6f21d5f1fbafdd1d4f44e7 data\minecraft\loot_table\blocks\deepslate_iron_ore.json
+08f919efbf7fa7f4bf50dd02ffcb691862118c40 data\minecraft\loot_table\blocks\deepslate_copper_ore.json

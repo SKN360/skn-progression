@@ -1,6 +1,7 @@
-// 1.21.1	2025-07-28T17:16:11.2970566	SKN's Progression/Recipes
+// 1.21.1	2025-07-28T21:01:17.2170016	SKN's Progression/Recipes
 79b47a25e43667dfaf573b5596bc8eff91bb9152 data\skns_progression\recipe\chainmail_chestplate.json
 ac3826f63a6d6adb372f9505fdda503360fc44a1 data\skns_progression\recipe\obsidian_shovel.json
+e8c50be06ca5b803fba6a0c830771f0b743bbf85 data\skns_progression\recipe\copper_ingot.json
 4e0eedb9bb594b572237399da402126b35fb3a99 data\skns_progression\advancement\recipes\tools\obsidian_sword.json
 c999d2da7d74fd964317b6958a5eb00c6ab691bd data\skns_progression\recipe\copper_hoe.json
 d2652a0f83e876e6a9b77017c879cff1cad2a9f2 data\skns_progression\recipe\copper_pickaxe.json
@@ -23,7 +24,10 @@ cb77912f7245ee2d78cce60fa14af147565d8837 data\skns_progression\advancement\recip
 85abc7cf39281b82b06a09731f08a832d1f04924 data\skns_progression\recipe\chainmail_helmet.json
 9f1cbc8f5ba5f9448cfa27ec3d73c57a53569250 data\skns_progression\advancement\recipes\tools\obsidian_pickaxe.json
 0c95576529cd5fa99a4a1b4313d18c30b6a92d01 data\skns_progression\advancement\recipes\combat\chainmail_boots.json
+a0848898174d0f3001ead6ccbd47fb632b703dc6 data\skns_progression\advancement\recipes\misc\copper_ingot.json
+6a96c731f556853aafbaf08a4b335ebe0babbf8d data\skns_progression\recipe\copper_nugget_from_copper_ingot.json
 ed09736b57297fb4c7a5f46a24509d8a4e79ae03 data\skns_progression\recipe\copper_axe.json
+daeb439c42d404c3d397f6a497ef1e0519966335 data\skns_progression\advancement\recipes\misc\copper_nugget_from_copper_ingot.json
 88022034447b13256fef4310755ba7ec6e0f0d57 data\skns_progression\recipe\obsidian_sword.json
 29fe494aa58ed2973055daeb267a408f85141dfb data\skns_progression\advancement\recipes\tools\copper_pickaxe.json
 93561bbcac93ead1db1f6a62750dca29f972a348 data\skns_progression\advancement\recipes\tools\obsidian_axe.json

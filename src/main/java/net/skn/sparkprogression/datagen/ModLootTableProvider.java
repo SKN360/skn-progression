@@ -25,13 +25,13 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-        addDrop(Blocks.COPPER_ORE, metalOreDrops(Blocks.COPPER_ORE, Items.RAW_COPPER, 2.0F, 5.0F));
-        addDrop(Blocks.DEEPSLATE_COPPER_ORE, metalOreDrops(Blocks.DEEPSLATE_COPPER_ORE, Items.RAW_COPPER, 3.0F, 5.0F));
-        addDrop(Blocks.IRON_ORE, metalOreDrops(Blocks.IRON_ORE, Items.RAW_IRON, 2.0F, 5.0F));
-        addDrop(Blocks.DEEPSLATE_IRON_ORE, metalOreDrops(Blocks.DEEPSLATE_IRON_ORE, Items.RAW_IRON, 3.0F, 5.0F));
-        addDrop(Blocks.GOLD_ORE, metalOreDrops(Blocks.GOLD_ORE, Items.RAW_GOLD, 2.0F, 5.0F));
-        addDrop(Blocks.DEEPSLATE_GOLD_ORE, metalOreDrops(Blocks.DEEPSLATE_GOLD_ORE, Items.RAW_GOLD, 3.0F, 5.0F));
-        addDrop(Blocks.NETHER_GOLD_ORE, metalOreDrops(Blocks.NETHER_GOLD_ORE, Items.GOLD_NUGGET, 4.0F, 8.0F));
+        addDrop(Blocks.COPPER_ORE, metalOreDrops(Blocks.COPPER_ORE, Items.RAW_COPPER, 3.0F, 5.0F));
+        addDrop(Blocks.DEEPSLATE_COPPER_ORE, metalOreDrops(Blocks.DEEPSLATE_COPPER_ORE, Items.RAW_COPPER, 4.0F, 6.0F));
+        addDrop(Blocks.IRON_ORE, metalOreDrops(Blocks.IRON_ORE, Items.RAW_IRON, 3.0F, 5.0F));
+        addDrop(Blocks.DEEPSLATE_IRON_ORE, metalOreDrops(Blocks.DEEPSLATE_IRON_ORE, Items.RAW_IRON, 4.0F, 6.0F));
+        addDrop(Blocks.GOLD_ORE, metalOreDrops(Blocks.GOLD_ORE, Items.RAW_GOLD, 3.0F, 5.0F));
+        addDrop(Blocks.DEEPSLATE_GOLD_ORE, metalOreDrops(Blocks.DEEPSLATE_GOLD_ORE, Items.RAW_GOLD, 4.0F, 6.0F));
+        addDrop(Blocks.NETHER_GOLD_ORE, metalOreDrops(Blocks.NETHER_GOLD_ORE, Items.GOLD_NUGGET, 4.0F, 9.0F));
     }
 
     public LootTable.Builder metalOreDrops(Block drop, Item item, float minDrops, float maxDrops) {

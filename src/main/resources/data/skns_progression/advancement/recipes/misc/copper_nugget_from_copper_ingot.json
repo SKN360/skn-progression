@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_copper_nugget": {
+    "has_copper_ingot": {
       "conditions": {
         "items": [
           {
-            "items": "skns_progression:copper_nugget"
+            "items": "minecraft:copper_ingot"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "skns-progression:copper_ingot"
+        "recipe": "skns_progression:copper_nugget_from_copper_ingot"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_copper_nugget"
+      "has_copper_ingot"
     ]
   ],
   "rewards": {
     "recipes": [
-      "skns-progression:copper_ingot"
+      "skns_progression:copper_nugget_from_copper_ingot"
     ]
   }
 }
