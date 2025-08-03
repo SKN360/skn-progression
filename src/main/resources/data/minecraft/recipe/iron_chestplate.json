@@ -4,7 +4,7 @@
     "item": "minecraft:iron_ingot"
   },
   "base": {
-    "item": "minecraft:chainmail_chestplate"
+    "item": "skns_progression:copper_chestplate"
   },
   "result": {
     "count": 1,

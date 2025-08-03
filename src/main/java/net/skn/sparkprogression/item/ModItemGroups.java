@@ -73,10 +73,10 @@ public class ModItemGroups {
                         entries.add(ModItems.COPPER_SHOVEL);
                         entries.add(ModItems.COPPER_HOE);
 
-//                        entries.add(ModItems.COPPER_HELMET);
-//                        entries.add(ModItems.COPPER_CHESTPLATE);
-//                        entries.add(ModItems.COPPER_LEGGINGS);
-//                        entries.add(ModItems.COPPER_BOOTS);
+                        entries.add(ModItems.COPPER_HELMET);
+                        entries.add(ModItems.COPPER_CHESTPLATE);
+                        entries.add(ModItems.COPPER_LEGGINGS);
+                        entries.add(ModItems.COPPER_BOOTS);
 
                         entries.add(Items.GOLD_NUGGET);
                         entries.add(Items.GOLD_INGOT);

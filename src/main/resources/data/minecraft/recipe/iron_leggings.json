@@ -4,7 +4,7 @@
     "item": "minecraft:iron_ingot"
   },
   "base": {
-    "item": "minecraft:chainmail_leggings"
+    "item": "skns_progression:copper_leggings"
   },
   "result": {
     "count": 1,

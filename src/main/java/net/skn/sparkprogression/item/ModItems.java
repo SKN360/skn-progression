@@ -29,6 +29,18 @@ public class ModItems {
     public static final Item COPPER_HOE = registerItem("copper_hoe",
             new HoeItem(ModToolMaterials.COPPER, new Item.Settings()
             .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.COPPER, 0, -3f))));
+    public static final Item COPPER_HELMET = registerItem("copper_helmet",
+            new ArmorItem(ModArmorMaterials.COPPPER_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(12))));
+    public static final Item COPPER_CHESTPLATE = registerItem("copper_chestplate",
+            new ArmorItem(ModArmorMaterials.COPPPER_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(12))));
+    public static final Item COPPER_LEGGINGS = registerItem("copper_leggings",
+            new ArmorItem(ModArmorMaterials.COPPPER_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(12))));
+    public static final Item COPPER_BOOTS = registerItem("copper_boots",
+            new ArmorItem(ModArmorMaterials.COPPPER_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(12))));
 
     public static final Item OBSIDIAN_SWORD = registerItem("obsidian_sword",
             new SwordItem(ModToolMaterials.OBSIDIAN, new Item.Settings()
@@ -105,6 +117,10 @@ public class ModItems {
             entries.addAfter(Items.STONE_AXE, ModItems.OBSIDIAN_AXE);
             entries.addBefore(Items.IRON_SWORD, ModItems.COPPER_SWORD);
             entries.addBefore(Items.IRON_AXE, ModItems.COPPER_AXE);
+            entries.addAfter(Items.CHAINMAIL_BOOTS, ModItems.COPPER_HELMET);
+            entries.addAfter(ModItems.COPPER_HELMET, ModItems.COPPER_CHESTPLATE);
+            entries.addAfter(ModItems.COPPER_CHESTPLATE, ModItems.COPPER_LEGGINGS);
+            entries.addAfter(ModItems.COPPER_LEGGINGS, ModItems.COPPER_BOOTS);
         });
     }
 }

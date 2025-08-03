@@ -20,7 +20,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     @Override
     public void generate(RecipeExporter exporter) {
 
-        // Misc Items
+        // Upgrade
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRON_UPGRADE_SMITHING_TEMPLATE)
                 .pattern("RTR")
                 .pattern("RBR")
@@ -42,10 +42,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerPickaxeRecipe(exporter, RecipeCategory.TOOLS, ModItems.COPPER_PICKAXE, Items.COPPER_INGOT);
         offerShovelRecipe(exporter, RecipeCategory.TOOLS, ModItems.COPPER_SHOVEL, Items.COPPER_INGOT);
         offerHoeRecipe(exporter, RecipeCategory.TOOLS, ModItems.COPPER_HOE, Items.COPPER_INGOT);
-//        offerHelmetRecipe(exporter, RecipeCategory.COMBAT, ModItems.COPPER_HELMET, Items.COPPER_INGOT);
-//        offerChestplateRecipe(exporter, RecipeCategory.COMBAT, ModItems.COPPER_CHESTPLATE, Items.COPPER_INGOT);
-//        offerLeggingsRecipe(exporter, RecipeCategory.COMBAT, ModItems.COPPER_LEGGINGS, Items.COPPER_INGOT);
-//        offerBootsRecipe(exporter, RecipeCategory.COMBAT, ModItems.COPPER_BOOTS, Items.COPPER_INGOT);
+//      offerHelmetRecipe(exporter, RecipeCategory.COMBAT, ModItems.COPPER_HELMET, Items.COPPER_INGOT);
+//      offerChestplateRecipe(exporter, RecipeCategory.COMBAT, ModItems.COPPER_CHESTPLATE, Items.COPPER_INGOT);
+//      offerLeggingsRecipe(exporter, RecipeCategory.COMBAT, ModItems.COPPER_LEGGINGS, Items.COPPER_INGOT);
+//      offerBootsRecipe(exporter, RecipeCategory.COMBAT, ModItems.COPPER_BOOTS, Items.COPPER_INGOT);
 
         // Chainmail armor
         offerHelmetRecipe(exporter, RecipeCategory.COMBAT, Items.CHAINMAIL_HELMET, Items.CHAIN);

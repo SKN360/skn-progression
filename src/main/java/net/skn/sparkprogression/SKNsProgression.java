@@ -17,6 +17,7 @@ public class SKNsProgression implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
+		//TODO Anvil implementation
 
 		LOGGER.info(MOD_ID + " did it!");
 	}

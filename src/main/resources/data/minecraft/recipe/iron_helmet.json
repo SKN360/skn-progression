@@ -4,7 +4,7 @@
     "item": "minecraft:iron_ingot"
   },
   "base": {
-    "item": "minecraft:chainmail_helmet"
+    "item": "skns_progression:copper_helmet"
   },
   "result": {
     "count": 1,
