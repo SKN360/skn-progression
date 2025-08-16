@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "base": {
-    "item": "minecraft:wooden_pickaxe"
+    "item": "minecraft:stone_pickaxe"
   },
   "addition": {
     "item": "minecraft:diamond"
@@ -10,7 +10,7 @@
     "item": "minecraft:diamond"
   },
   "result": {
-    "id": "minecraft:wooden_pickaxe",
+    "id": "minecraft:stone_pickaxe",
     "components": {
       "skns_progression:tipped": true
     }
