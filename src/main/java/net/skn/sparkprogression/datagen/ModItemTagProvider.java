@@ -17,18 +17,23 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(ItemTags.SWORDS)
+                .add(ModItems.OBSIDIAN_SWORD)
                 .add(ModItems.COPPER_SWORD)
         ;
         getOrCreateTagBuilder(ItemTags.AXES)
+                .add(ModItems.OBSIDIAN_AXE)
                 .add(ModItems.COPPER_AXE)
         ;
         getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(ModItems.OBSIDIAN_PICKAXE)
                 .add(ModItems.COPPER_PICKAXE)
         ;
         getOrCreateTagBuilder(ItemTags.SHOVELS)
+                .add(ModItems.OBSIDIAN_SHOVEL)
                 .add(ModItems.COPPER_SHOVEL)
         ;
         getOrCreateTagBuilder(ItemTags.HOES)
+                .add(ModItems.OBSIDIAN_HOE)
                 .add(ModItems.COPPER_HOE)
         ;
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)

@@ -25,7 +25,12 @@
   "item.skns_progression.obsidian_shovel": "Obsidian Shovel",
   "item.skns_progression.obsidian_hoe": "Obsidian Hoe",
 
-  "itemgroup.skns_progression.involved_items" : "SKN's Progression Key Items"
+  "itemgroup.skns_progression.involved_items" : "SKN's Progression Key Items",
+  "tooltip.skns_progression.components.tipped" : "Tipped",
+  "tooltip.skns_progression.components.sharpened" : "Sharpened",
+  "tooltip.skns_progression.components.soulbound" : "Soulbound",
+  "tooltip.skns_progression.components.efficient" : "Efficient",
+  "tooltip.skns_progression.components.protected" : "Protected"
 
 
 }

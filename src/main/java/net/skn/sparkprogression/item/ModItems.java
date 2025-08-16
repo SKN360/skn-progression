@@ -2,9 +2,11 @@ package net.skn.sparkprogression.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
+import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
+import net.minecraft.util.Formatting;
 import net.minecraft.util.Identifier;
 import net.skn.sparkprogression.SKNsProgression;
 
@@ -13,7 +15,6 @@ import java.util.List;
 public class ModItems {
 
     public static final Item COPPER_NUGGET = registerItem("copper_nugget", new Item(new Item.Settings()));
-
     public static final Item COPPER_SWORD = registerItem("copper_sword",
             new SwordItem(ModToolMaterials.COPPER, new Item.Settings()
             .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.COPPER, 3, -2.4f))));
@@ -29,6 +30,7 @@ public class ModItems {
     public static final Item COPPER_HOE = registerItem("copper_hoe",
             new HoeItem(ModToolMaterials.COPPER, new Item.Settings()
             .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.COPPER, 0, -3f))));
+
     public static final Item COPPER_HELMET = registerItem("copper_helmet",
             new ArmorItem(ModArmorMaterials.COPPPER_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
                     new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(12))));

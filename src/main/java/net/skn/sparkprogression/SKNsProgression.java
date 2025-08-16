@@ -1,7 +1,7 @@
 package net.skn.sparkprogression;
 
 import net.fabricmc.api.ModInitializer;
-
+import net.skn.sparkprogression.components.ModDataComponentTypes;
 import net.skn.sparkprogression.item.ModItemGroups;
 import net.skn.sparkprogression.item.ModItems;
 import org.slf4j.Logger;
@@ -17,7 +17,7 @@ public class SKNsProgression implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
-		//TODO Anvil implementation
+		ModDataComponentTypes.registerDataComponentTypes();
 
 		LOGGER.info(MOD_ID + " did it!");
 	}

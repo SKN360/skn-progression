@@ -1,7 +1,7 @@
-// 1.21.1	2025-08-02T19:18:11.4847358	SKN's Progression/Tags for minecraft:item
-30c0b1c3b3658a660ecd2df3cd6e07f4eb74a52f data\minecraft\tags\item\shovels.json
-08c0b7d7af40c5c5d92c1bbbf7a0debd6db0589b data\minecraft\tags\item\swords.json
-94ee2dc156ba8cbd58fe6ad1d210372dbba923d2 data\minecraft\tags\item\axes.json
-8b0c267fe4633db937ee10a1d19d28612aecec61 data\minecraft\tags\item\pickaxes.json
+// 1.21.1	2025-08-16T12:33:23.328403	SKN's Progression/Tags for minecraft:item
+77a13a76582d33a4a5164a1db776d282ea8cdcd0 data\minecraft\tags\item\shovels.json
+63618d0954ae7a102b87365eb6808275298c3e15 data\minecraft\tags\item\swords.json
+796ccd9bae5c10f4dda3fb74c79d902e105eda00 data\minecraft\tags\item\axes.json
+b60161aae9d36c58f4649240b06d6aaa46dbb91a data\minecraft\tags\item\pickaxes.json
 bcdaad7291d3a72adc725549d1889b215aec77c4 data\minecraft\tags\item\trimmable_armor.json
-a80e07b80556428cd5c7746d8cfeb5ef5569ef24 data\minecraft\tags\item\hoes.json
+da71c732b6b7ed2b107429e35c5402ffe195012e data\minecraft\tags\item\hoes.json
