@@ -3,6 +3,7 @@
   "package": "net.skn.sparkprogression.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "AnvilScreenHandlerMixin",
     "ItemMixin",
     "ToolMaterialsMixin"
   ],

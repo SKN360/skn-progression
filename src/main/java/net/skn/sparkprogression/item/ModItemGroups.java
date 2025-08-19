@@ -122,7 +122,9 @@ public class ModItemGroups {
                         entries.add(Items.ANVIL);
 
                         entries.add(Items.DIAMOND);
+                        entries.add(Items.QUARTZ);
                         entries.add(Items.ECHO_SHARD);
+                        entries.add(Items.EMERALD_ORE);
 
                         entries.add(Items.ANCIENT_DEBRIS);
                         entries.add(Items.NETHERITE_SCRAP);

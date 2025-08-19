@@ -37,6 +37,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShovelRecipe(exporter, ModItems.OBSIDIAN_SHOVEL, Items.OBSIDIAN);
         offerHoeRecipe(exporter, ModItems.OBSIDIAN_HOE, Items.OBSIDIAN);
         // Copper
+        offerShapelessRecipe(exporter, ModItems.COPPER_NUGGET, Items.COPPER_INGOT, "from_copper_ingot", 4);
+        offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, Items.COPPER_INGOT, ModItems.COPPER_NUGGET);
         offerSwordRecipe(exporter, ModItems.COPPER_SWORD, Items.COPPER_INGOT);
         offerAxeRecipe(exporter, ModItems.COPPER_AXE, Items.COPPER_INGOT);
         offerPickaxeRecipe(exporter, ModItems.COPPER_PICKAXE, Items.COPPER_INGOT);

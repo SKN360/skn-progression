@@ -1,4 +1,4 @@
-// 1.21.1	2025-08-16T12:33:23.297809	SKN's Progression/Model Definitions
+// 1.21.1	2025-08-16T21:04:37.9297277	SKN's Progression/Model Definitions
 9983c0a7069d85c18ef2b0fe9ec7d2b576bd4ca0 assets\skns_progression\models\item\copper_leggings_amethyst_trim.json
 68042b151f80b4c2546b00a2c3b91ec35ff60130 assets\skns_progression\models\item\copper_helmet_diamond_trim.json
 87c467d8cc76649e93cd46c964d1ecae031928c1 assets\skns_progression\models\item\obsidian_sword.json
@@ -49,8 +49,8 @@ bf3017ac6b13d38f207f0e5a7e80d3c821296dfc assets\skns_progression\models\item\cop
 80443a1653a7a1c26ccfd8a6b6bb21f78e3a330e assets\skns_progression\models\item\copper_helmet_emerald_trim.json
 e399919a9ed798375d175535d401690826dc4f22 assets\skns_progression\models\item\copper_chestplate_diamond_trim.json
 74eca014e6ecad6f1128e33f02e8e8f3b472eddd assets\skns_progression\models\item\copper_chestplate_lapis_trim.json
-913081ba0e3a37e18ae8582b51238cf06e978463 assets\skns_progression\models\item\copper_leggings_redstone_trim.json
 346260cab92045594da1427ba63adf500d45ed70 assets\skns_progression\models\item\copper_boots_netherite_trim.json
+913081ba0e3a37e18ae8582b51238cf06e978463 assets\skns_progression\models\item\copper_leggings_redstone_trim.json
 16648ffc4a33b32800de772ffb24a0a618b7a4f6 assets\skns_progression\models\item\copper_helmet_netherite_trim.json
 221faee8b2db9739909100e3166d48be86f41472 assets\skns_progression\models\item\copper_leggings_iron_trim.json
 7f50a53bdd081ef7679d021be4a4b1567f5a7e6e assets\skns_progression\models\item\copper_chestplate_gold_trim.json
