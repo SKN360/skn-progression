@@ -1,7 +1,9 @@
-// 1.21.1	2025-08-16T21:04:37.9337293	SKN's Progression/Tags for minecraft:item
+// 1.21.1	2025-08-21T13:43:26.7621104	SKN's Progression/Tags for minecraft:item
 77a13a76582d33a4a5164a1db776d282ea8cdcd0 data\minecraft\tags\item\shovels.json
+366ca7457c5d307d9d89148bf70834998d311a09 data\skns_progression\tags\item\enhancement_material.json
 63618d0954ae7a102b87365eb6808275298c3e15 data\minecraft\tags\item\swords.json
 796ccd9bae5c10f4dda3fb74c79d902e105eda00 data\minecraft\tags\item\axes.json
 b60161aae9d36c58f4649240b06d6aaa46dbb91a data\minecraft\tags\item\pickaxes.json
 bcdaad7291d3a72adc725549d1889b215aec77c4 data\minecraft\tags\item\trimmable_armor.json
+61e037bc1d41fb282a8a50767ac051a75fb156ad data\skns_progression\tags\item\nerfed_items.json
 da71c732b6b7ed2b107429e35c5402ffe195012e data\minecraft\tags\item\hoes.json

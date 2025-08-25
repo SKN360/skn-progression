@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
+import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
@@ -38,7 +39,12 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerHoeRecipe(exporter, ModItems.OBSIDIAN_HOE, Items.OBSIDIAN);
         // Copper
         offerShapelessRecipe(exporter, ModItems.COPPER_NUGGET, Items.COPPER_INGOT, "from_copper_ingot", 4);
-        offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, Items.COPPER_INGOT, ModItems.COPPER_NUGGET);
+//        offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, Items.COPPER_INGOT, ModItems.COPPER_NUGGET); //DONE MANUALLY
+//        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.COPPER_INGOT)
+//                .input(ModItems.COPPER_NUGGET, 4)
+//                .criterion(FabricRecipeProvider.hasItem(ModItems.COPPER_NUGGET), FabricRecipeProvider.conditionsFromItem(ModItems.COPPER_NUGGET))
+//                .offerTo(exporter)
+//        ;
         offerSwordRecipe(exporter, ModItems.COPPER_SWORD, Items.COPPER_INGOT);
         offerAxeRecipe(exporter, ModItems.COPPER_AXE, Items.COPPER_INGOT);
         offerPickaxeRecipe(exporter, ModItems.COPPER_PICKAXE, Items.COPPER_INGOT);

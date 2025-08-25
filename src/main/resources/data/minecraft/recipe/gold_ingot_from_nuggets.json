@@ -1,14 +1,20 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "key": {
-    "#": {
-      "item": "minecraft:gold_nugget"
+  "group": "gold_ingot",
+  "ingredients": [
+    {
+      "item": "gold_nugget"
+    },
+    {
+      "item": "gold_nugget"
+    },
+    {
+      "item": "gold_nugget"
+    },
+    {
+      "item": "gold_nugget"
     }
-  },
-  "pattern": [
-    "##",
-    "##"
   ],
   "result": {
     "count": 1,

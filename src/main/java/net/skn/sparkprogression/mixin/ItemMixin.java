@@ -21,7 +21,7 @@ public class ItemMixin {
                 state.isIn(BlockTags.INCORRECT_FOR_GOLD_TOOL) ||
                 state.isIn(BlockTags.INCORRECT_FOR_WOODEN_TOOL) ||
                 state.isIn(BlockTags.INCORRECT_FOR_STONE_TOOL)
-            ) && stack.getComponents().contains(ModDataComponentTypes.TIPPED);
+            ) && Boolean.TRUE.equals(stack.get(ModDataComponentTypes.TIPPED));
 
         ToolComponent toolComponent = stack.get(DataComponentTypes.TOOL);
         cir.setReturnValue(toolComponent != null && (toolComponent.isCorrectForDrops(state) || isTipped));

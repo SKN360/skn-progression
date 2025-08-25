@@ -18,7 +18,7 @@ public enum ModToolMaterials implements ToolMaterial {
     COPPER(ModTags.Blocks.INCORRECT_FOR_COPPER_TOOL,
             250, 6.0F, 1.0F, 16, () -> Ingredient.ofItems(Items.COPPER_INGOT)),
     OBSIDIAN(BlockTags.INCORRECT_FOR_STONE_TOOL,
-            1860, 5.0F, 1.0F, 4, () -> Ingredient.ofItems(Items.OBSIDIAN));
+            1860, 6.0F, 1.0F, 4, () -> Ingredient.ofItems(Items.OBSIDIAN));
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;

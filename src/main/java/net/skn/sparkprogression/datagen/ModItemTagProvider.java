@@ -2,6 +2,7 @@ package net.skn.sparkprogression.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
 import net.skn.sparkprogression.item.ModItems;
@@ -16,6 +17,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
+        //Vanilla tags
         getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(ModItems.OBSIDIAN_SWORD)
                 .add(ModItems.COPPER_SWORD)
@@ -41,6 +43,28 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.COPPER_CHESTPLATE)
                 .add(ModItems.COPPER_LEGGINGS)
                 .add(ModItems.COPPER_BOOTS)
+        ;
+        //Mod Tags
+        getOrCreateTagBuilder(ModTags.Items.ENHANCEMENT_MATERIAL)
+                .add(Items.DIAMOND)
+                .add(Items.ECHO_SHARD)
+                .add(Items.QUARTZ)
+                .add(Items.EMERALD_ORE)
+                .add(Items.CHAINMAIL_HELMET)
+                .add(Items.CHAINMAIL_CHESTPLATE)
+                .add(Items.CHAINMAIL_LEGGINGS)
+                .add(Items.CHAINMAIL_BOOTS)
+        ;
+        getOrCreateTagBuilder(ModTags.Items.NERFED_ITEMS)
+                .add(Items.DIAMOND_SWORD)
+                .add(Items.DIAMOND_AXE)
+                .add(Items.DIAMOND_PICKAXE)
+                .add(Items.DIAMOND_SHOVEL)
+                .add(Items.DIAMOND_HOE)
+                .add(Items.DIAMOND_HELMET)
+                .add(Items.DIAMOND_CHESTPLATE)
+                .add(Items.DIAMOND_LEGGINGS)
+                .add(Items.DIAMOND_BOOTS)
         ;
     }
 }

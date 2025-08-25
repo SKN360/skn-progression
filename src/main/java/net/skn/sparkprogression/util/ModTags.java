@@ -17,7 +17,8 @@ public class ModTags {
         }
     }
     public static class Items {
-
+        public static final TagKey<Item> ENHANCEMENT_MATERIAL = createTag("enhancement_material");
+        public static final TagKey<Item> NERFED_ITEMS = createTag("nerfed_items");
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(RegistryKeys.ITEM, Identifier.of(SKNsProgression.MOD_ID, name));

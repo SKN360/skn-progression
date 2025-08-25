@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "base": {
+    "item": "minecraft:golden_shovel"
+  },
+  "result": {
+    "components": {
+      "minecraft:unbreakable": {}
+    },
+    "count": 1,
+    "id": "minecraft:netherite_shovel"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

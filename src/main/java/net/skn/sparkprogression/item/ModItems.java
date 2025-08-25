@@ -2,11 +2,9 @@ package net.skn.sparkprogression.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
-import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
-import net.minecraft.util.Formatting;
 import net.minecraft.util.Identifier;
 import net.skn.sparkprogression.SKNsProgression;
 
@@ -49,7 +47,7 @@ public class ModItems {
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.OBSIDIAN, 3, -2.4f))));
     public static final Item OBSIDIAN_AXE = registerItem("obsidian_axe",
             new AxeItem(ModToolMaterials.OBSIDIAN, new Item.Settings()
-                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.OBSIDIAN, 6, -3.2f))));
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.OBSIDIAN, 7, -3.2f))));
     public static final Item OBSIDIAN_PICKAXE = registerItem("obsidian_pickaxe",
             new PickaxeItem(ModToolMaterials.OBSIDIAN, new Item.Settings()
                     .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.OBSIDIAN, 1, -2.4f))));

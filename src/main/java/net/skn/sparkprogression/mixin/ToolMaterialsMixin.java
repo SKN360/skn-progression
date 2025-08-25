@@ -1,6 +1,5 @@
 package net.skn.sparkprogression.mixin;
 
-
 import net.minecraft.item.ToolMaterials;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -8,7 +7,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(value = ToolMaterials.class)
-public class ToolMaterialsMixin {
+public abstract class ToolMaterialsMixin {
     @Inject(method = "getDurability", at = @At("RETURN"), cancellable = true)
     private void getDurabilityInject(CallbackInfoReturnable<Integer> cir) {
         switch ((ToolMaterials) (Object) this) {
@@ -29,7 +28,7 @@ public class ToolMaterialsMixin {
     @Inject(method = "getAttackDamage", at = @At("RETURN"), cancellable = true)
     private void getAttackDamageInject(CallbackInfoReturnable<Float> cir) {
         switch ((ToolMaterials) (Object) this) {
-            case GOLD -> cir.setReturnValue(2F); //gold same damage as iron
+            case GOLD -> cir.setReturnValue(2F);
             case DIAMOND -> cir.setReturnValue(0F);
         }
     }
